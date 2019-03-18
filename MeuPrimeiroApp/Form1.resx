@@ -121,6 +121,37 @@
     <value>17, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>470, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="arquivoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 20</value>
+  </data>
+  <data name="arquivoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
   <data name="abrirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 22</value>
   </data>
@@ -139,11 +170,11 @@
   <data name="sairToolStripMenuItem.Text" xml:space="preserve">
     <value>Sair</value>
   </data>
-  <data name="arquivoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 20</value>
+  <data name="exibirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 20</value>
   </data>
-  <data name="arquivoToolStripMenuItem.Text" xml:space="preserve">
-    <value>Arquivo</value>
+  <data name="exibirToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exibir</value>
   </data>
   <data name="listaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 22</value>
@@ -151,17 +182,17 @@
   <data name="listaToolStripMenuItem.Text" xml:space="preserve">
     <value>Lista</value>
   </data>
-  <data name="exibirToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
-  </data>
-  <data name="exibirToolStripMenuItem.Text" xml:space="preserve">
-    <value>Exibir</value>
-  </data>
   <data name="ferramentasToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 20</value>
   </data>
   <data name="ferramentasToolStripMenuItem.Text" xml:space="preserve">
     <value>Ferramentas</value>
+  </data>
+  <data name="ajudaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 20</value>
+  </data>
+  <data name="ajudaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ajuda</value>
   </data>
   <data name="sobreToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -571,72 +602,11 @@
   <data name="sobreToolStripMenuItem.Text" xml:space="preserve">
     <value>Sobre</value>
   </data>
-  <data name="ajudaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 20</value>
-  </data>
-  <data name="ajudaToolStripMenuItem.Text" xml:space="preserve">
-    <value>Ajuda</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>470, 24</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <metadata name="selecionarArquivo.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>132, 17</value>
   </metadata>
   <data name="selecionarArquivo.Title" xml:space="preserve">
     <value>Selecionar </value>
-  </data>
-  <data name="lblNotas.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblNotas.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 24pt</value>
-  </data>
-  <data name="lblNotas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 52</value>
-  </data>
-  <data name="lblNotas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 36</value>
-  </data>
-  <data name="lblNotas.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lblNotas.Text" xml:space="preserve">
-    <value>Notas</value>
-  </data>
-  <data name="&gt;&gt;lblNotas.Name" xml:space="preserve">
-    <value>lblNotas</value>
-  </data>
-  <data name="&gt;&gt;lblNotas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblNotas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblNotas.ZOrder" xml:space="preserve">
-    <value>11</value>
   </data>
   <data name="txtNota1.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 117</value>
@@ -661,7 +631,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNota1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="txtNota2.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 164</value>
@@ -685,7 +655,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNota2.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="txtNota3.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 202</value>
@@ -709,7 +679,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNota3.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="txtNota4.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 240</value>
@@ -733,7 +703,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNota4.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="lbl1Bimestre.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -766,7 +736,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl1Bimestre.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="lbl2Bimestre.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -799,7 +769,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl2Bimestre.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="lbl3Bimestre.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -832,7 +802,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl3Bimestre.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="lbl4Bimestre.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -865,7 +835,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbl4Bimestre.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="lblResultado.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -877,7 +847,7 @@
     <value>NoControl</value>
   </data>
   <data name="lblResultado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>276, 52</value>
+    <value>260, 27</value>
   </data>
   <data name="lblResultado.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 36</value>
@@ -895,10 +865,10 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblResultado.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBoxDash</value>
   </data>
   <data name="&gt;&gt;lblResultado.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>0</value>
   </data>
   <data name="lblMedia.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -907,7 +877,7 @@
     <value>Linux Libertine G, 24pt</value>
   </data>
   <data name="lblMedia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 105</value>
+    <value>272, 75</value>
   </data>
   <data name="lblMedia.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 37</value>
@@ -925,7 +895,7 @@
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;lblMedia.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>groupBoxDash</value>
   </data>
   <data name="&gt;&gt;lblMedia.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -934,7 +904,7 @@
     <value>Arial, 21.75pt</value>
   </data>
   <data name="btnResultado.Location" type="System.Drawing.Point, System.Drawing">
-    <value>135, 362</value>
+    <value>135, 399</value>
   </data>
   <data name="btnResultado.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 50</value>
@@ -955,6 +925,66 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnResultado.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBoxDash.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 86</value>
+  </data>
+  <data name="groupBoxDash.Size" type="System.Drawing.Size, System.Drawing">
+    <value>398, 270</value>
+  </data>
+  <data name="groupBoxDash.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="groupBoxDash.Text" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDash.Name" xml:space="preserve">
+    <value>groupBoxDash</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDash.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBoxDash.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="backgroundWorker1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>281, 17</value>
+  </metadata>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 24pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 35</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>421, 36</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>CALCULADORA DE NOTAS</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -964,10 +994,7 @@
     <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>470, 462</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+    <value>470, 472</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Criando App</value>
@@ -1031,6 +1058,12 @@
   </data>
   <data name="&gt;&gt;selecionarArquivo.Type" xml:space="preserve">
     <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Name" xml:space="preserve">
+    <value>backgroundWorker1</value>
+  </data>
+  <data name="&gt;&gt;backgroundWorker1.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

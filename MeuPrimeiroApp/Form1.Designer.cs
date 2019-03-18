@@ -40,7 +40,6 @@
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.selecionarArquivo = new System.Windows.Forms.OpenFileDialog();
-            this.lblNotas = new System.Windows.Forms.Label();
             this.txtNota1 = new System.Windows.Forms.MaskedTextBox();
             this.txtNota2 = new System.Windows.Forms.MaskedTextBox();
             this.txtNota3 = new System.Windows.Forms.MaskedTextBox();
@@ -52,7 +51,11 @@
             this.lblResultado = new System.Windows.Forms.Label();
             this.lblMedia = new System.Windows.Forms.Label();
             this.btnResultado = new System.Windows.Forms.Button();
+            this.groupBoxDash = new System.Windows.Forms.GroupBox();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
+            this.groupBoxDash.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -126,11 +129,6 @@
             this.selecionarArquivo.FileName = "selecionar Arquivo";
             resources.ApplyResources(this.selecionarArquivo, "selecionarArquivo");
             // 
-            // lblNotas
-            // 
-            resources.ApplyResources(this.lblNotas, "lblNotas");
-            this.lblNotas.Name = "lblNotas";
-            // 
             // txtNota1
             // 
             this.txtNota1.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.ExcludePromptAndLiterals;
@@ -201,14 +199,26 @@
             this.btnResultado.UseVisualStyleBackColor = false;
             this.btnResultado.Click += new System.EventHandler(this.btnResultado_Click);
             // 
+            // groupBoxDash
+            // 
+            this.groupBoxDash.Controls.Add(this.lblResultado);
+            this.groupBoxDash.Controls.Add(this.lblMedia);
+            resources.ApplyResources(this.groupBoxDash, "groupBoxDash");
+            this.groupBoxDash.Name = "groupBoxDash";
+            this.groupBoxDash.TabStop = false;
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnResultado);
-            this.Controls.Add(this.lblMedia);
-            this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.lbl4Bimestre);
             this.Controls.Add(this.lbl3Bimestre);
             this.Controls.Add(this.lbl2Bimestre);
@@ -217,12 +227,14 @@
             this.Controls.Add(this.txtNota3);
             this.Controls.Add(this.txtNota2);
             this.Controls.Add(this.txtNota1);
-            this.Controls.Add(this.lblNotas);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.groupBoxDash);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.groupBoxDash.ResumeLayout(false);
+            this.groupBoxDash.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -240,7 +252,6 @@
         private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
         private System.Windows.Forms.OpenFileDialog selecionarArquivo;
-        private System.Windows.Forms.Label lblNotas;
         private System.Windows.Forms.MaskedTextBox txtNota1;
         private System.Windows.Forms.MaskedTextBox txtNota2;
         private System.Windows.Forms.MaskedTextBox txtNota3;
@@ -252,6 +263,9 @@
         private System.Windows.Forms.Label lblResultado;
         private System.Windows.Forms.Label lblMedia;
         private System.Windows.Forms.Button btnResultado;
+        private System.Windows.Forms.GroupBox groupBoxDash;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.Label label1;
     }
 }
 
